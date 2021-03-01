@@ -1,4 +1,4 @@
-Algoritmo "desafioCinema"
+Algoritmo "desafioNotas"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Gustavo Guanabara
 // Descrição   : Desafio 2 Ordenação de vetores, Problema Cinema!
