@@ -19,26 +19,27 @@ Inicio
    para i <- 1 ate 5 faca
       escreva("Questão ",i,": ")
       leia(questao[i])
-   fimpara
+     fimpara
+   limpatela
+   para j <- 1 ate 3 faca
       limpatela
-       para j <- 1 ate 3 faca
-            escreva("Nome: ")
-            leia(nome[j])
-            para i <- 1 ate 5 faca
-               escreva("Questão ",i,":")
-               leia(resp[i])
-               se(resp[i] = questao[i]) entao
-                  nota[j] <- nota[j] + 2
-                  soma <- soma + 2
-               fimse
-               fimpara
-            fimpara
-            limpatela
-            escreval("-------------------------")
-            escreval("      NOTAS FINAIS       ")
-            escreval("-------------------------")
-            para i <- 1 ate 3 faca
-               escreval(nome[i]:15, nota[nome])
-            fimpara
-            escreval("Média da Turma : ",soma/3:2:1)
+      escreva("Nome: ")
+      leia(nome[j])
+      para i <- 1 ate 5 faca
+         escreva("Questão ",i,":")
+         leia(resp[i])
+         se(resp[i] = questao[i]) entao
+            nota[j] <- nota[j] + 2
+            soma <- soma + 2
+         fimse
+      fimpara
+   fimpara
+   limpatela
+   escreval("-------------------------")
+   escreval("      NOTAS FINAIS       ")
+   escreval("-------------------------")
+   para i <- 1 ate 3 faca
+      escreval(nome[i]:15, nota[i])
+   fimpara
+   escreval("Média da Turma : ",soma/3:3:2)
 Fimalgoritmo
