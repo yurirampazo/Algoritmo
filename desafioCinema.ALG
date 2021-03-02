@@ -21,7 +21,7 @@ inicio
             escreva ("[---]")
          fimSe
       fimPara
-      escrevaL (" ")
+      escrevaL ()
       escrevaL ("---------------------------------------------------")
       escreva  ("Reservar a cadeira: B")
       leia(r)
